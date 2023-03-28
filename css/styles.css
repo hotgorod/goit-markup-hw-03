@@ -5,6 +5,13 @@
 /* background footer: #2E2F42; */
 /* color for web and for button #4D5AE5; */
 
+.container {
+  width: 1128px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
 :root {
   --primary-text-color: #434455;
   --title-text-color: #2e2f42;
@@ -12,6 +19,7 @@
   --primary-white-color: #ffffff;
   --secondary-white-color: #f4f4fd;
   --active-color: #404bbf;
+  --hairlines: #e7e9fc;
 }
 
 body {
@@ -34,6 +42,8 @@ body {
 /* сброс настроек для списка */
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .site-nav .link {
@@ -75,15 +85,18 @@ body {
 
 .section-hero {
   background-color: var(--title-text-color);
+  text-align: center;
 }
 
 .hero-title {
+  margin-top: 0px;
+  margin-bottom: 48px;
   color: var(--primary-white-color);
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
+
   letter-spacing: 0.02em;
 }
 
@@ -102,6 +115,9 @@ body {
   letter-spacing: 0.04em;
   text-decoration: none;
   cursor: pointer;
+  border-radius: 4px;
+  padding: 16px 34px;
+  border: 0px;
 }
 
 .button:hover,
@@ -110,6 +126,8 @@ body {
 }
 
 .section-title {
+  padding: 0;
+  margin: 72px;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -120,6 +138,8 @@ body {
 }
 
 .team .title {
+  padding: 0;
+  margin: 0;
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 20px;
@@ -177,6 +197,7 @@ body {
   text-align: center;
   letter-spacing: 0.04em;
   cursor: pointer;
+  border: 1px solid var(--hairlines);
 }
 
 .portfolio .button:hover,

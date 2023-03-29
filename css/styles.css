@@ -31,10 +31,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.header {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
+
 /* сброс настроек для списка */
 .list {
   list-style: none;

@@ -44,6 +44,10 @@ body {
   padding-right: 15px;
   margin: 0 auto;
 }
+
+.header {
+  border-bottom: 1px solid var(--hairlines);
+}
 .main-nav {
   display: flex;
   align-items: center;
@@ -178,6 +182,15 @@ body {
   padding-bottom: 60px;
 }
 
+.feature-list {
+  display: flex;
+}
+
+.feature-list .item + .item {
+  display: block;
+  margin-left: 24px;
+}
+
 .feature-list .text {
   margin-top: 0;
   margin-bottom: 0;
@@ -200,6 +213,23 @@ body {
   padding-top: 60px;
   padding-bottom: 120px;
 }
+
+.doing {
+  display: flex;
+}
+
+.doing .item + .item {
+  margin-left: 24px;
+}
+
+.team {
+  display: flex;
+}
+
+.team .bgcolor + .bgcolor {
+  margin-left: 24px;
+}
+
 .section-team {
   padding-top: 120px;
   padding-bottom: 120px;

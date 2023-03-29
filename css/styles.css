@@ -5,13 +5,6 @@
 /* background footer: #2E2F42; */
 /* color for web and for button #4D5AE5; */
 
-.container {
-  width: 1128px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-}
-
 :root {
   --primary-text-color: #434455;
   --title-text-color: #2e2f42;
@@ -38,15 +31,34 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 /* сброс настроек для списка */
 .list {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-
+.container {
+  width: 1128px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+.site-nav {
+  display: flex;
+  margin-left: 76px;
+}
 .site-nav .link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
   color: var(--title-text-color);
 
   font-style: normal;
@@ -55,6 +67,10 @@ body {
   line-height: 1.5;
 
   letter-spacing: 0.02em;
+}
+
+.site-nav .item:not(:last-child) {
+  margin-right: 40px;
 }
 
 .link {
@@ -66,9 +82,13 @@ body {
 }
 
 .address {
+  display: flex;
   font-style: normal;
 }
 
+.address .item + .item {
+  margin-left: 40px;
+}
 .address .link {
   color: var(--primary-text-color);
   font-weight: 400;
@@ -86,6 +106,8 @@ body {
 .section-hero {
   background-color: var(--title-text-color);
   text-align: center;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero-title {
@@ -127,7 +149,8 @@ body {
 
 .section-title {
   padding: 0;
-  margin: 72px;
+  margin-top: 0;
+  margin-bottom: 72px;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -139,7 +162,8 @@ body {
 
 .team .title {
   padding: 0;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 32px;
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 20px;
@@ -147,14 +171,26 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
 }
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.section-feature {
+  padding-top: 120px;
+  padding-bottom: 60px;
+}
 
 .feature-list .text {
+  margin-top: 0;
+  margin-bottom: 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
 }
 
 .section-team .text {
+  margin-top: 0;
+  margin-bottom: 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -162,8 +198,13 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
 }
-
+.section-what-we-are-doing {
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
 .section-team {
+  padding-top: 120px;
+  padding-bottom: 120px;
   background-color: var(--secondary-white-color);
 }
 
@@ -207,6 +248,8 @@ body {
 }
 
 .section-under-title {
+  margin-top: 0;
+  margin-bottom: 8px;
   color: var(--title-text-color);
   font-style: normal;
   font-weight: 500;

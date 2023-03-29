@@ -256,9 +256,13 @@ body {
 
 .portfolio {
   display: flex;
-  margin-top: 96px;
   margin-bottom: 72px;
   justify-content: center;
+}
+
+.section-portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 .portfolio .button {
@@ -302,7 +306,7 @@ body {
   width: 358px;
   margin-right: 24px;
   margin-bottom: 48px;
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--hairlines);
 }
 
 .gallery .item:nth-child(3n) {

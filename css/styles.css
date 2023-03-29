@@ -83,6 +83,7 @@ body {
 
 .address {
   display: flex;
+  margin-left: auto;
   font-style: normal;
 }
 

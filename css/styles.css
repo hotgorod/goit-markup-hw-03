@@ -39,7 +39,7 @@ body {
   margin: 0;
 }
 .container {
-  width: 1128px;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -134,7 +134,7 @@ body {
   line-height: 1.5;
   /* identical to box height, or 150% */
 
-  display: flex;
+  display: block;
   align-items: center;
   letter-spacing: 0.04em;
   text-decoration: none;
@@ -142,6 +142,7 @@ body {
   border-radius: 4px;
   padding: 16px 34px;
   border: 0px;
+  margin: auto;
 }
 
 .button:hover,

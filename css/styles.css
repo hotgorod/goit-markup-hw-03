@@ -55,6 +55,7 @@ img {
 .main-nav {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 .site-nav {
   display: flex;
@@ -88,7 +89,6 @@ img {
 
 .address {
   display: flex;
-  margin-left: auto;
   font-style: normal;
 }
 

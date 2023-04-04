@@ -199,13 +199,12 @@ img {
 }
 
 .feature-list .item {
-  flex-basis: calc(100% / 4 - 24px);
-  margin-left: 24px;
+  width: calc((100% - 72px) / 4);
 }
 
-.feature-list .item:first-child {
+/* .feature-list .item:first-child {
   margin-left: 0;
-}
+} */
 
 .feature-list .text {
   margin-top: 0;
